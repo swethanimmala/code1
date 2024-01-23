@@ -1,0 +1,42 @@
+
+<html>
+   
+  <script>
+
+    function getText() {
+      var text1 = document.getElementById("t1").value;
+      var text2 = document.getElementById("t2").value;
+      var no1 = Number.parseInt(text1);
+      var no2 = Number.parseInt(text2);
+ 
+      document.getElementById("t3").value = (no1+no2);
+    }
+    
+  </script>
+
+  <center >
+  </table><body >
+    <div >
+    <input type="checkbox" id="t1" value="checkbox1"/>
+  <label for="checkbox1">
+
+  </label>
+  <button class="radio" onclick="getText()">checkbox1</button>
+  <br>
+  <br>
+</div>
+<div>
+    <input type="checkbox" id="t1" value="checkbox2"/>
+  <label for="checkbox2">
+
+  </label>
+  <button class="radio" onclick="getText()">checkbox2</button>
+</div>
+</table>
+</center>
+
+
+   
+  </body>
+</html>
+ 

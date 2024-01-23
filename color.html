@@ -1,0 +1,36 @@
+
+<html>
+   
+  <script>
+
+    function getText() {
+      var text1 = document.getElementById("t1").value;
+      var text2 = document.getElementById("t2").value;
+      var no1 = Number.parseInt(text1);
+      var no2 = Number.parseInt(text2);
+ 
+      document.getElementById("t3").value = (no1+no2);
+    }
+  </script>
+ 
+  
+  <body >
+    <div>
+    <input type="color" id="t1" value="first"/>
+  <label for="first">
+
+  </label>
+  <button class="radio" onclick="getText()">color1</button>
+</div>
+<div>
+    <input type="color" id="t1" value="second"/>
+  <label for="second">
+
+  </label>
+  <button class="radio" onclick="getText()">color2</button>
+</div>
+
+   
+  </body>
+</html>
+ 

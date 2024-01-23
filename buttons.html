@@ -1,0 +1,28 @@
+
+<html>
+   
+  <script>
+
+    function getText() {
+      var text1 = document.getElementById("t1").value;
+      var text2 = document.getElementById("t2").value;
+      var no1 = Number.parseInt(text1);
+      var no2 = Number.parseInt(text2);
+ 
+      document.getElementById("t3").value = (no1+no2);
+    }
+  </script>
+ 
+  
+  <body >
+    <div>
+    NO1 <input type="radio" id="t1" />
+    NO2 <input type="text" id="t2" />
+    Total <input type="text" id="t3" />
+ 
+    <button class="radio" onclick="getText()">Add</button>
+</div>
+   
+  </body>
+</html>
+ 

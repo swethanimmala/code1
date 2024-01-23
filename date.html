@@ -1,0 +1,36 @@
+
+<html>
+   
+  <script>
+
+    function getText() {
+      var text1 = document.getElementById("t1").value;
+      var text2 = document.getElementById("t2").value;
+      var no1 = Number.parseInt(text1);
+      var no2 = Number.parseInt(text2);
+ 
+      document.getElementById("t3").value = (no1+no2);
+    }
+  </script>
+ 
+  
+  <body >
+    <div>
+    <input type="date" id="t1" value="day1"/>
+  <label for="day1">
+
+  </label>
+  <button class="radio" onclick="getText()">day1</button>
+</div>
+<div>
+    <input type="date" id="t1" value="day2"/>
+  <label for="day2">
+
+  </label>
+  <button class="radio" onclick="getText()">day2</button>
+</div>
+
+   
+  </body>
+</html>
+ 
